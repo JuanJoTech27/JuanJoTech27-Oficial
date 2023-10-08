@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #fff;
+}
+
+/* Encabezado */
+header {
+    background-color: #171717;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contenido principal */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.contenido h2 {
+    font-size: 28px;
+    color: #f8eaea;
+}
+
+/* Pie de página */
+footer {
+    background-color: #171717;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+}
